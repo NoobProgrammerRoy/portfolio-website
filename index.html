@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5f0ead6ef3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Royston Rodrigues</title>
+</head>
+
+<body>
+    <div class="full">
+        <!-- Navbar -->
+        <header class="bg-light">
+            <nav>
+                <div class="container mx-auto navbar p-1">
+                    <a href="/">
+                        <h2 class="text-primary">Royston Rodrigues</h2>
+                    </a>
+                    <a href="https://github.com/NoobProgrammerRoy/" class="fa fa-github text-primary"></a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Body -->
+        <main class="bg-light">
+            <section class="container mx-auto px-1">
+                <div class="body">
+                    <div class="body-item mt-1">
+                        <h1 class="text-center text-primary py-1">Hello, I'm Royston Rodrigues</h1>
+                        <p class="text-center text-bold">- A student, a full stack web developer and a hobyist game
+                            developer</p>
+                        <a href="https://github.com/NoobProgrammerRoy/" class="btn btn-primary my-1">View on <span class="fa fa-github"></span></a>
+                    </div>
+                    <div class="body-item mb-1">
+                        <img src="./img/body.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="full">
+        <!-- About -->
+        <section class="about">
+            <div class="container mx-auto px-1">
+                <h2 class="text-center text-primary my-1">About Me</h2>
+                <p class="text-center text-bold">Hi there, I'm Royston Rodrigues. I'm a student and a full stack web
+                    developer
+                    with a passion for backend technologies. I'm also a hobbyist game developer who loves creating
+                    hypercasual games. I have over 2 years of experience working with web technologies. When I'm not
+                    working on web related stuff, I'm usually writing my own games in python :)</p>
+            </div>
+        </section>
+
+        <!-- Technologies -->
+        <section class="technologies">
+            <div class="container mx-auto px-1">
+                <h2 class="text-center text-primary my-1 mt-2">Technologies Worked With</h2>
+                <div class="logos mb-2">
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">HTML5</p>
+                        <img src="./img/html.png" alt="HTML5" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">CSS3</p>
+                        <img src="./img/css.png" alt="CSS3" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">JS</p>
+                        <img src="./img/js.png" alt="JS" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">NodeJS</p>
+                        <img src="./img/node.png" alt="NodeJS" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">Python</p>
+                        <img src="./img/python.png" alt="Python" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">Flask</p>
+                        <img src="./img/flask.png" alt="Flask" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">PHP</p>
+                        <img src="./img/php.png" alt="PHP" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">MySQL</p>
+                        <img src="./img/mysql.png" alt="MySQL" class="mx-auto pb-1">
+                    </div>
+                    <div class="logo-item">
+                        <p class="text-center text-bold p-1">MongoDB</p>
+                        <img src="./img/mongodb.jpg" alt="MongoDB" class="mx-auto pb-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects -->
+    <section class="bg-primary">
+        <div class="container mx-auto px-1 pb-3 pt-1">
+            <h2 class="text-center text-light pb-1">My Projects</h2>
+            <div class="projects">
+                <div class="project-item bg-white" id="project-1">
+                    <img src="./img/gzone.PNG" alt="">
+                    <h3 class="bg-white text-center py-1">GZone Online Store</h3>
+                </div>
+                <div class="project-item bg-white" id="project-2">
+                    <img src="./img/mypass.PNG" alt="">
+                    <h3 class="bg-white text-center py-1">MyPass Password Vault</h3>
+                </div>
+                <div class="project-item bg-white" id="project-3">
+                    <img src="./img/movie-api.jpg" alt="">
+                    <h3 class="bg-white text-center py-1">Movie Ticket API</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-item p-1">
+            <span class="modal-close fa fa-close" id="modal-close"></span>
+            <div class="container mx-auto">
+                <h1 class="text-center pb-1" id="modal-title"></h1>
+                <img src="" alt="" id="modal-image">
+                <p class="text-center py-1" id="modal-info"></p>
+                <div class="modal-button">
+                    <a href="#" class="btn btn-primary mx-1" id="modal-link">View on <span class="fa fa-github"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="bg-white">
+        <div class="container mx-auto px-1 py-1">
+            <h2 class="text-center text-primary">Contact Me</h2>
+            <form action="/" method="POST" class="form">
+                <input type="text" name="name" id="name" placeholder="Name" required class="my-1 p-1">
+                <input type="email" name="email" id="email" placeholder="Email Address" required class="my-1 p-1">
+                <textarea name="message" id="message" placeholder="Message" required class="my-1 p-1"></textarea>
+                <button type="submit" class="btn btn-primary my-1">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary">
+        <div class="container mx-auto px-1 py-2">
+            <p class="text-center text-bold text-light pb-1">Connect with me on social media.</p>
+            <div class="footer">
+                <a href="#" class="fa fa-facebook text-light px-1"></a>
+                <a href="#" class="fa fa-twitter text-light px-1"></a>
+                <a href="#" class="fa fa-instagram text-light px-1"></a>
+                <a href="#" class="fa fa-linkedin text-light px-1"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
