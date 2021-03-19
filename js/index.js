@@ -12,7 +12,7 @@ const project3 = document.getElementById('project-3')
 project1.addEventListener('click', () => {
     modal.style.display = 'block'
     modalTitle.innerText = 'GZone Online Store'
-    modalImage.src = './img/gzone.png'
+    modalImage.src = './img/gzone.PNG'
     modalInfo.innerText = `
         Gzone is an online platform for buying your favorite video games. Features include user authentication, product pages, cart 
         functionality, review system, admin portal etc.
@@ -23,7 +23,7 @@ project1.addEventListener('click', () => {
 project2.addEventListener('click', () => {
     modal.style.display = 'block'
     modalTitle.innerText = 'MyPass Password Vault'
-    modalImage.src = './img/mypass.png'
+    modalImage.src = './img/mypass.PNG'
     modalInfo.innerText = `
         MyPass is a password vault designed to generate strong custom passwords as well securely store them. MyPass uses a custom password 
         generator to generate strong passwords behind-the-scenes.
